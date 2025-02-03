@@ -1,0 +1,66 @@
+body {
+    background-color: aliceblue;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.label,
+h1 {
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#line {
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+button {
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: powderblue;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+button:hover{
+    color: blue;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+select,input{
+    border-radius: 5px;
+    border: 5px solid cadetblue;
+}
+
+@media(max-width:400px){
+    form{
+        width:90%;
+    }
+}
+#list{
+    color: rgb(15, 69, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+li{
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
